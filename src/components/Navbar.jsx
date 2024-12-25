@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/logo/Logo.jpg'
+import Logo from '../assets/logo/logo.jpg'
 import { IoMdMenu } from "react-icons/io";
 import { RxCross2 } from "react-icons/rx";
 import { Link, NavLink } from 'react-router-dom';
