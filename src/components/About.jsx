@@ -13,11 +13,11 @@ import Github from '../assets/Images_PNG/Github.png'
 
 const About = () => {
     return (
-        <div className='relative text-white' id='about'>
+        <div className='relative text-white mt-14' >
             <div className=' py-10'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='text-center'>
-                        {/* <h2 className='text-base text-red-600 font-semibold tracking-wide uppercase'>About Me</h2> */}
+                        {/* <h2 className='text-base text-red-500 font-semibold tracking-wide uppercase'>About Me</h2> */}
                         <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl'>Hi, I'm <span className='text-red-600'>Himanshu Mainwal</span></p>
                         <p className='mt-4 max-w-2xl text-xl text-gray-300 lg:mx-auto'>
                             React JS developer with strong frontend & backend skills seeking challenging roles to build impactful web experiences.
@@ -26,7 +26,7 @@ const About = () => {
                     <div className='mt-20 '>
                         <div className='  '>
                             <div className='mb-20'>
-                                <h3 className='text-3xl text-white text-center font-semibold'>Summary</h3>
+                                <h3 className='text-3xl text-center font-semibold text-red-600'>Summary</h3>
                                 <div className='text-center mt-4 text-lg text-gray-300 leading-normal sm:leading-8'>
                                     <p>
                                         Motivated and dedicated frontend developer with a strong foundation in React JS, HTML5, Tailwind CSS, and JavaScript and good knowledge of PHP and MySQL. I am passionate about creating visually appealing, user-friendly websites and am eager to gain hands-on experience in React JS.

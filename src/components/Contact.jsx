@@ -66,7 +66,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className=' md:h-[90vh] flex justify-center items-center py-16 relative px-5 md:px-0'>
+      <section className=' md:h-[90vh] md:mt-10 flex justify-center items-center py-16 relative px-5 md:px-0'>
         <div className='w-[85vw]'>
           <div className='flex flex-col md:flex-row justify-between items-center'>
             <div className='p-10 md:w-1/2  mb-8 ml-2 md:mb-0'>
