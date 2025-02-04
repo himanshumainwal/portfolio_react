@@ -3,6 +3,7 @@ import currency_Converter from '../assets/project_Images/currency_Converter.png'
 import sundown from '../assets/project_Images/sundown.png'
 import firebase_auth_demo from '../assets/project_Images/firebase_auth_demo.png'
 import netflix_Clone from '../assets/project_Images/netflix_Clone.png'
+import Weather_App from '../assets/project_Images/Weather_App.png'
 import password_Generator from '../assets/project_Images/password_Generator.png'
 import pdf_Browse_App from '../assets/project_Images/pdf_Browse_App.png'
 import Calculator from '../assets/project_Images/Calculator.png'
@@ -15,6 +16,13 @@ const Projects = () => {
 
   const projectJson = [
 
+    {
+      title: 'Weather App',
+      desc: `This is a simple React-based Weather App that allows users to search for a city and get current weather details along with a 5-day forecast.`,
+      image: Weather_App,
+      live: "https://whimsical-lollipop-64dc33.netlify.app/",
+      github: "https://github.com/himanshumainwal/weather_app"
+    },
     {
       title: 'Netflix Clone',
       desc: `A responsive React app mimicking Netflix's UI, featuring navigation, a homepage, and styled sections for movies and shows.`,
