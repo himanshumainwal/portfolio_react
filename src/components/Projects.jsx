@@ -9,6 +9,8 @@ import pdf_Browse_App from '../assets/project_Images/pdf_Browse_App.png'
 import Calculator from '../assets/project_Images/Calculator.png'
 import TicTacToe from '../assets/project_Images/TicTacToe.png'
 import movieSearch from '../assets/project_Images/movieSearch.png'
+import Portfolio_Copy from '../assets/project_Images/Portfolio_Copy.png'
+import landing_page from '../assets/project_Images/landing_page.png'
 import Cards from './Cards'
 
 
@@ -29,6 +31,20 @@ const Projects = () => {
       image: netflix_Clone,
       live: "https://taupe-semifreddo-b78566.netlify.app/",
       github: "https://github.com/himanshumainwal/netflix_Clone"
+    },
+    {
+      title: 'ProductX Landing Page',
+      desc: 'Welcome to ProductX .This is a fully responsive landing page built using React, Bootstrap, and AOS animations.',
+      image: landing_page,
+      live: "https://elaborate-chebakia-ce689c.netlify.app/",
+      github: "https://github.com/himanshumainwal/my-landing-page"
+    },
+    {
+      title: 'Portfolio Copy',
+      desc: 'A sleek and modern freelance designer portfolio built with smooth navigation and bold visuals. 💼 Showcases personal branding, responsive layout.',
+      image: Portfolio_Copy,
+      live: "https://brilliant-kringle-c546b9.netlify.app/",
+      github: "https://github.com/himanshumainwal/creatiwise_Assignment"
     },
     {
       title: 'TicTacToe Game',
