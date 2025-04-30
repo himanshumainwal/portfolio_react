@@ -12,8 +12,8 @@ const Hero = () => {
         <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between' >
           <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10'>
             <h1 className='lg:text-6xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm  <span className='text-red-600'>Himanshu Mainwal</span></h1>
-            <p className='md:text-2xl text-xl mb-4'>React / Front-End Developer</p>
-            <p className='mb-4'>I'm a passionate React / Front-End Developer with expertise in React, JavaScript and modern web technologies. I love creating beautiful and functional website that solve real world problems.</p>
+            <p className='md:text-2xl text-xl mb-4'><span className='text-red-600 font-bold'>Front-End</span> Developer</p>
+            <p className='mb-4'>I'm a passionate Software Developer with expertise in React.js, JavaScript, and modern web technologies. I enjoy creating beautiful and functional websites that solve real-world problems.</p>
             <button className='bg-red-500 text-white px-3 py-2 w-max hover:bg-white hover:text-red-700 transition duration-700 rounded-md'><a href={my_Resume} download="Himanshu_Resume.pdf" target='_blank'>Download CV</a></button>
           </div>
           <div className='md:w-1/2 relative flex justify-center items-end'>
