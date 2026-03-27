@@ -60,7 +60,7 @@ const Navbar = () => {
             <NavLink to="/projects" className='hover:bg-white transition duration-700 h-full px-3 content-center hover:text-red-700'>Projects</NavLink>
           </nav> */}
 
-          <Link to="/contact" className='bg-red-500 md:flex hidden font-medium text-lg hover:bg-white hover:text-red-700 transition duration-700 my-auto py-1 px-4 rounded-lg cursor-pointer text-white'>Contact</Link>
+          <Link to="/contact" className='bg-red-700 md:flex hidden font-medium text-lg hover:bg-white hover:text-red-700 transition duration-700 my-auto py-1 px-4 rounded-lg cursor-pointer text-white'>Contact</Link>
 
         </div>
         <button className='inline-flex items-center justify-center rounded-md md:hidden' onClick={() => setmMobileMenuOpen(!mobileMenuOpen)}>

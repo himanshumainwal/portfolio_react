@@ -11,6 +11,7 @@ import TicTacToe from '../assets/project_Images/TicTacToe.png'
 import movieSearch from '../assets/project_Images/movieSearch.png'
 import Portfolio_Copy from '../assets/project_Images/Portfolio_Copy.png'
 import landing_page from '../assets/project_Images/landing_page.png'
+import Wooziee from '../assets/project_Images/Wooziee.png'
 import Cards from './Cards'
 
 
@@ -18,6 +19,13 @@ const Projects = () => {
 
   const projectJson = [
 
+    {
+      title: 'Wooziee',
+      desc: `Wooziee is a full-stack event ticketing platform that enables seamless event discovery, booking, and management.`,
+      image: Wooziee,
+      live: "https://wooziee.netlify.app/",
+      github: "https://github.com/himanshumainwal/wooziee"
+    },
     {
       title: 'Weather App',
       desc: `This is a simple React-based Weather App that allows users to search for a city and get current weather details along with a 5-day forecast.`,
