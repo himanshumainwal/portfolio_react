@@ -12,6 +12,7 @@ import movieSearch from '../assets/project_Images/movieSearch.png'
 import Portfolio_Copy from '../assets/project_Images/Portfolio_Copy.png'
 import landing_page from '../assets/project_Images/landing_page.png'
 import Wooziee from '../assets/project_Images/Wooziee.png'
+import weather_pro from '../assets/project_Images/weather_pro.png'
 import Cards from './Cards'
 
 
@@ -27,11 +28,11 @@ const Projects = () => {
       github: "https://github.com/himanshumainwal/wooziee"
     },
     {
-      title: 'Weather App',
-      desc: `This is a simple React-based Weather App that allows users to search for a city and get current weather details along with a 5-day forecast.`,
-      image: Weather_App,
-      live: "https://whimsical-lollipop-64dc33.netlify.app/",
-      github: "https://github.com/himanshumainwal/weather_app"
+      title: 'Weather Pro',
+      desc: `A modern weather dashboard built with React and Tailwind CSS, providing real-time and historical weather insights with interactive charts.`,
+      image: weather_pro,
+      live: "https://history-weather.netlify.app/",
+      github: "https://github.com/himanshumainwal/WeatherPro"
     },
     {
       title: 'Netflix Clone',
@@ -39,6 +40,13 @@ const Projects = () => {
       image: netflix_Clone,
       live: "https://taupe-semifreddo-b78566.netlify.app/",
       github: "https://github.com/himanshumainwal/netflix_Clone"
+    },
+    {
+      title: 'Weather App',
+      desc: `This is a simple React-based Weather App that allows users to search for a city and get current weather details along with a 5-day forecast.`,
+      image: Weather_App,
+      live: "https://whimsical-lollipop-64dc33.netlify.app/",
+      github: "https://github.com/himanshumainwal/weather_app"
     },
     {
       title: 'ProductX Landing Page',
